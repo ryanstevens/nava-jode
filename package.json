@@ -1,0 +1,30 @@
+{
+  "name": "nava-jode",
+  "version": "1.0.0",
+  "description": "A project that is both Node and Java, cause why wouldn't you (this is a joke)",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "preinstall" : "mvn clean package",
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanstevens/nova-jode.git"
+  },
+  "keywords": [
+    "Node",
+    "and",
+    "Java"
+  ],
+  "dependencies": {
+    "spaun" : "^1.0.0"
+  },
+  "author": "Ryan Stevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanstevens/nova-jode/issues"
+  },
+  "homepage": "https://github.com/ryanstevens/nova-jode"
+}
