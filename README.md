@@ -1,5 +1,5 @@
 
-##Nova Jode
+##Nava Jode
 
 ###To run globally 
 npm install nava-jode -g
